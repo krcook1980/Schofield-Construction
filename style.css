@@ -79,5 +79,60 @@ h3 {
     padding: 10px;
     background-color: black;
     }
-   
-    
+
+    /*mobile css  */
+   .mobile{
+       background-image: url("assets/mobileBG.jpg");
+       background-repeat: no-repeat, repeat;
+        background-color: #171717; /* Used if the image is unavailable */
+        height: 1500px;
+        background-size: cover;
+        overflow: auto;
+   }
+
+   .headMobile{
+       background-color: white;
+   }
+
+   .box{
+       background-color: rgb(232,178,1, .8);
+       width: 70%;
+       padding: 2%;
+       margin-left: 15%;
+       margin-top: 15%;
+       position: relative;
+       overflow-inline: hidden;
+   }
+   .box1{
+    background-color:rgb(255, 255, 255, .8);
+    width: 75%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 35%;
+    padding: 10%;
+
+}
+.boxImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.box2{
+    background-color: rgb(232,178,1, .8);
+    width: 70%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-top: 55%;
+    position: absolute;
+    overflow-inline: hidden;
+}
+.box3{
+    background-color:rgb(255, 255, 255, .8);
+    width: 90%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 25%;
+    padding: 10%;
+
+}
