@@ -1,0 +1,82 @@
+.bg1 {
+    background-image: url("assets/img1.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #171717; /* Used if the image is unavailable */
+    height: 1500px;
+    background-size: cover;
+    overflow: auto;
+     }
+.bg {
+    background-image: url("assets/img9.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #171717; /* Used if the image is unavailable */
+    height: 1500px;
+    background-size: cover;
+    overflow: auto;
+}
+.navbar{
+    background-color: #171717;
+    color: white;
+    width: 100%
+    
+}
+.is-active{
+    background-color: #171717;
+}
+
+.heading {
+    color: white;
+}
+.grid1 {
+    padding: 2%;
+    background-color: rgba(206,205,203,0.8);
+    width: 60%;
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+    margin-bottom: 10%;  
+    text-align: justify;
+    border-color: rgb(42, 99, 165);
+    border-style: ridge;
+}
+
+h3 {
+    text-decoration: underline;
+}
+/* .open{
+    font-size: large;
+} */
+
+.lic{
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+    display: table;
+  }
+
+.foliomargin {
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.form-group .form-floating {
+    margin: 10px;
+}
+
+.icon {
+    width: 8%; 
+     text-align: center;
+ }
+ footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    }
+   
