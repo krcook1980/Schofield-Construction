@@ -2,7 +2,7 @@
     background-image: url("assets/img1.jpg");
     background-repeat: no-repeat, repeat;
     background-color: #171717; /* Used if the image is unavailable */
-    height: 1500px;
+    height:1000px;
     background-size: cover;
     overflow: auto;
      }
@@ -10,7 +10,7 @@
     background-image: url("assets/img9.jpg");
     background-repeat: no-repeat, repeat;
     background-color: #171717; /* Used if the image is unavailable */
-    height: 1500px;
+    height: 100%;
     background-size: cover;
     overflow: auto;
 }
@@ -85,7 +85,7 @@ h3 {
        background-image: url("assets/mobileBG.jpg");
        background-repeat: no-repeat, repeat;
         background-color: #171717; /* Used if the image is unavailable */
-        height: 1500px;
+        height: 800px;
         background-size: cover;
         overflow: auto;
    }
@@ -109,8 +109,8 @@ h3 {
     position: absolute;
     margin-top: 65%;
     margin-left: 25%;
-    padding: 10%;
-
+    padding: 8%;
+    font-weight: 500;
 }
 .boxImg {
     display: block;
@@ -126,6 +126,7 @@ h3 {
     margin-top: 35%;
     position: absolute;
     overflow-inline: hidden;
+    font-weight: 600;
 }
 .box3{
     background-color:rgb(255, 255, 255, .8);
@@ -141,3 +142,43 @@ h3 {
     margin-left: 10%;
     max-width: 90%
 }
+
+.icon{
+    width: 30px;
+}
+.fb-video{
+    width: 50%;
+}
+/* services page */
+
+.frame {
+	text-align: center;	
+	position: relative;
+	cursor: pointer;	
+	perspective: 500px; 
+}
+.frame img {
+	width: 300px;
+	height: 300px;
+}
+.frame .details {
+	width: 70%;
+	height: 80%;	
+	padding: 5% 8%;
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(90deg);
+	transform-origin: 50%;
+	background: rgba(255, 255, 255, 0.8);	
+	opacity: 0;
+	transition: all 0.4s ease-in;
+  font-weight: 500;
+	
+}
+.frame:hover .details {
+	transform: translate(-50%, -50%) rotateY(0deg);
+	opacity: 1;
+}
+
