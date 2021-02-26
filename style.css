@@ -107,8 +107,8 @@ h3 {
     background-color:rgb(255, 255, 255, .8);
     width: 75%;
     position: absolute;
-    margin-top: -5%;
-    margin-left: 35%;
+    margin-top: 65%;
+    margin-left: 25%;
     padding: 10%;
 
 }
@@ -121,9 +121,9 @@ h3 {
 .box2{
     background-color: rgb(232,178,1, .8);
     width: 70%;
-    padding: 2%;
+    padding: 10%;
     margin-left: 5%;
-    margin-top: 55%;
+    margin-top: 35%;
     position: absolute;
     overflow-inline: hidden;
 }
@@ -135,4 +135,9 @@ h3 {
     margin-left: 25%;
     padding: 10%;
 
+}
+
+.contactMobile{
+    margin-left: 10%;
+    max-width: 90%
 }

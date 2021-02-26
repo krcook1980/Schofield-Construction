@@ -148,22 +148,57 @@
       <img src="assets/lol.jfif">
     </div>
     <div class="body row my-6">
-      <div class="box col-sm-3 ">
+      <div class="box col-sm-3 rounded">
         <img src="assets/img1.jpg" class="boxImg" alt="trackhoe">
-        <div class="box2 col-sm-3 ">
-         <p> Follow us on Facebook and Instagram</p>
-          <div class="box3 col-sm-3 ">
-            <p>How can we help your dream become reality? Contact us today!</p>
+        <div class="box2 col-sm-3 roudned">
+          <p> Follow us on Facebook and Instagram</p>
+          <div class="box3 col-sm-3 rounded">
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target=".bd-example-modal-sm">Contact Us
+              Today</button>
+
+
           </div>
         </div>
-      
-      <div class="box1 col-sm-3 ">
+      </div>
+
+      <div class="box1 col-sm-3 rounded">
         Accurate and competitive bids with cutting edge digital technology by Trimble.
       </div>
-      
-    </div>
+
 
     </div>
+    <div class="contactMobile">
+      <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Your Email:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-dark">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
 
   </section>
 
