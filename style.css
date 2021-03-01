@@ -2,9 +2,9 @@
     background-image: url("assets/mobileBG.jpg");
     background-repeat: no-repeat, repeat;
     background-color: #171717; /* Used if the image is unavailable */
-    height:1500px;
+    height:100%;
     background-size: cover;
-    overflow: auto;
+    
      }
 .bg {
     background-image: url("assets/img9.jpg");
@@ -12,7 +12,7 @@
     background-color: #171717; /* Used if the image is unavailable */
     height: 100%;
     background-size: cover;
-    overflow: auto;
+    
 }
 .navbar{
     background-color: #171717;
@@ -51,6 +51,7 @@ h3 {
     margin-top: 2%;
     font-weight: bold;
     width: 300px;
+    text-align: center;
 }
 .open{
    margin-top: 3%;
@@ -103,7 +104,7 @@ h3 {
        background-image: url("assets/mobileBG.jpg");
        background-repeat: no-repeat, repeat;
         background-color: #171717; /* Used if the image is unavailable */
-        height: 800px;
+        height: 1000px;
         background-size: cover;
         overflow: auto;
    }
@@ -117,22 +118,24 @@ h3 {
        width: 70%;
        padding: 2%;
        margin-left: 15%;
-       margin-top: 15%;
+       margin-top: 5%;
        position: relative;
        overflow-inline: auto;
+       
    }
    .box1{
     background-color:rgb(255, 255, 255, .8);
     width: 75%;
     position: absolute;
-    margin-top: 65%;
+    margin-top: 45%;
     margin-left: 25%;
     padding: 8%;
     font-weight: 500;
+    text-align: justify;
 }
 .boxImg {
     display: block;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -140,8 +143,8 @@ h3 {
     background-color: rgb(232,178,1, .8);
     width: 70%;
     padding: 10%;
-    margin-left: 5%;
-    margin-top: 35%;
+    margin-left: 0%;
+    margin-top: 60%;
     position: absolute;
     overflow-inline: hidden;
     font-weight: 600;
