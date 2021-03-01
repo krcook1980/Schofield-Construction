@@ -25,7 +25,7 @@
 
 <!-- large screen content -->
   <div class="bg1 d-none d-md-block">
-    <section class="section header">
+    <section class="section header fixed-top">
       <div class="has-text-white">
         <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
           <a class="navbar-brand ml-6" href="index.html"><img
@@ -51,13 +51,13 @@
               </li>
 
               <li class="nav-item active">
-                <a class="nav-link" href="services.html">Services <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#services">Services <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item active">
+              <!-- <li class="nav-item active">
                 <a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
-              </li>
+              </li> -->
               <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
               </li>
             </ul>
           </div>
@@ -65,17 +65,15 @@
       </div>
 
     </section>
-    <section class=" mx-2 clearfix">
+    <section class=" mx-2 clearfix contentBody">
 
       <div class="row mx-2">
 
-        <div class="col-md-5 grid1 animated flip">
-          <p class="open">
-            We specialize in excavation in the mountainous area of Park City, Utah. From custom homesites to mainlines
-            and
-            road work, we are licensed to excavate and build. We have low overhead with the ability to tackle big jobs.
-          </p>
-          <div class="row">
+        <div class="col-lg-5 col-md-12 grid1 animated flip">
+          <h1 class="text-center intro">Excavation | Surveying | Rock Walls <br>
+          Serving the Park City Area</h1>
+          
+          <div class="row ">
               <div class="col-md-6">
                 <p class="lic">
                   Free consultations & bids
@@ -86,37 +84,127 @@
       
                 </p>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 links">
                 <p> Follow us on: <a href="https://www.facebook.com/schofieldconst/" class="text-dark" target="_blank"><br> <img src="assets/fbicon.webp" alt="instagram icon" class="icon">Facebook</a> and <br> <a href="https://www.instagram.com/scottschofieldconstruction/" class="text-dark" target="_blank"><img src="https://www.transparentpng.com/thumb/logo-instagram/zI6ZGS-black-logo-instagram-png-transparent.png" alt="instagram logo" class="icon"> Instagram</a></p>
               </div>
          
         </div>
-          
-          <h3>LET US BUILD A 3-D MODEL OF YOUR SITE PLAN!</h3>
+          <div class="mt-6">
+          <h2 class="text-center ">A Cut Above!</h2>
           <p class="open">
 
-            We use the cutting edge excavation bidding software 'Paydirt' by Trimble to digitize your site plans into a detailed
-            model
-            that includes all contours, pads, basements, drive/roadways & quantifies all cuts, fills, and import/export
-            hauling right down to the cubic foot! This is FREE of charge and comes with each bid! This will finally take
-            all of the guesswork out of excavation and it has been proven extremely accurate over the past several
-            years.
-            All you need is a simple site plan and we do the rest!
+             Excavation, survey, gravel slinging, grading, rock walls, and more; we specialize in working in the mountainous region of Park City, UT. We provide accurate and competitive bids with cutting edge technology by Trimble. From custom homes to commercial projects, we are provide quality, reliable service. 
 
           </p>
-          <p class="open">
-            CALL OR <a href="contact.html" class="text-dark">EMAIL</a> US TODAY!<br>
-
+          
+          <div class="contactMobile" id="contact">
+              <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">CONTACT US TODAY FOR PRICING AND INFORMATION</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Your Email:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-dark">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="open text-center">
             We look forward to hearing from you.
           </p>
+        </div>
           <div class="fb-video" data-href="https://www.facebook.com/schofieldconst/videos/309877973062005" data-height="500" data-show-text="false"><blockquote cite="https://developers.facebook.com/schofieldconst/videos/309877973062005/" class="fb-xfbml-parse-ignore"><a href="https://developers.facebook.com/schofieldconst/videos/309877973062005/"></a>Posted by <a href="https://www.facebook.com/schofieldconst/">Scott Schofield Construction Inc</a></div>
         </div>
-        <div class="col-md-7">
-
+        <div class="col-lg-7 col-md-12">
+          <section class="container">
+            <h2 class="text-center mt-3 mb-3" id="services"> </h2>
+            <!-- gallery for cards -->
+            <div class="row">
+                <div class = "frame col-lg-4 col-md-12">
+                    <h3>Excavating</h3>
+                    <img src="assets/img1.jpg" class="servImg">
+                    <div class = "details">
+                        
+                        <p>We "dig" it all: custom homesites, road construction, commercial site work, complex
+                            infrastructures, pump stations, and more. With 9 machines, 3 dump trucks, and gravel slinger, we have what your job needs.</p>
+                    </div>
+    
+                </div>
+                <div class = "frame col-lg-4 col-md-12">
+                    <h3>Bidding</h3>
+                    <img src="assets/trimble.jpg" class="servImg">
+                    <div class = "details">
+                        
+                        <p>Using the digital software 'Paydirt' by <a href="https://construction.trimble.com/en/" target="_blank" class="text-dark">Trimble</a> we are able to quickly and effectively quantify every detail of your plans. This allows us to provide a complete and accurate bid for your budget. The 3D model helps you visualize your final grade. </p>
+                    </div>
+                </div>
+                <div class = "frame col-lg-4 col-md-12">
+                    <h3>Rock Walls</h3>
+                    <img src="assets/img9.jpg" class="servImg">
+                    <div class = "details">
+                        
+                        <p>We install over 25,000 ft of rock retaining walls every year. With several quarrys providing a variety of stone options, we can build a structural wall that looks like a piece of art. Include steps, waterfalls, and more to complete your "rockscaping".</p>
+                    </div>
+                </div>
+                
+    
+            </div>
+            <div class="row pt-5">
+                <div class = "frame col-lg-4 col-md-12">
+                    <h3>Hammering</h3>
+                    <img src="assets/img3v.jpg" class="servImg">
+                    <div class = "details">
+                        
+                        <p>With two 5,000 lb hammer/breaker attachments for our machines, our machines can easily cut through the toughest rock. Handling rock hammering in house allows us to minimize costs and utilize time wisely for your project.</p>
+                    </div>
+    
+                </div>
+                <div class = "frame col-lg-4 col-md-12">
+                    <h3>Hauling</h3>
+                    <img src="assets/img2.jpg" class="servImg">
+                    <div class = "details">
+                        
+                        <p>Our 3 dump trucks will haul anything and everything that will fit inside. From clearing and grubbing, importing or exporting materials, to hauling rock, our fleet can handle all of your needs.  </p>
+                    </div>
+                </div>
+                <div class = "frame col-lg-4 col-md-12">
+                    <h3>Slinging</h3>
+                    <img src="assets/slinger.jpg" class="servImg">
+                    <div class = "details">
+                        
+                        <p>When it is a tight fit, or a long throw, bring in the slinger! Able to move many tons of gravel very quickly and precisely this addition to our fleet saves the day!</p>
+                    </div>
+                </div>
+                
+    
+            </div>
+        </section>
         </div>
+
+
       </div>
 
     </section>
+    
     <footer class="footer ">
       <div class="row">
         <div class="col-sm-6">
