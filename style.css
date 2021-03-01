@@ -2,7 +2,7 @@
     background-image: url("assets/mobileBG.jpg");
     background-repeat: no-repeat, repeat;
     background-color: #171717; /* Used if the image is unavailable */
-    height:1000px;
+    height:1500px;
     background-size: cover;
     overflow: auto;
      }
@@ -30,7 +30,7 @@
     
 }
 .contentBody {
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .grid1 {
@@ -39,11 +39,10 @@
     width: 60%;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    overflow: auto;
     margin-bottom: 10%;  
     text-align: justify;
-    /* border-color: rgb(42, 99, 165, 0.5);
-    border-style: ridge; */
+   
+    box-shadow: 0 5px 20px  rgb(206,205,203);
 }
 
 h3 {
@@ -133,7 +132,7 @@ h3 {
 }
 .boxImg {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -182,7 +181,7 @@ h3 {
 }
 .frame .details {
 	width: 70%;
-	height: 80%;	
+	/* height: 80%;	 */
 	padding: 5% 8%;
 	position: absolute;
 	content: "";
