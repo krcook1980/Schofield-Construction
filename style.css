@@ -32,9 +32,7 @@
 .contentBody {
     margin-top: 15%;
 }
-.nav-item{
-    background-color: black;
-}
+
 .grid1 {
     padding: 2%;
     background-color: rgba(206,205,203,0.8);
@@ -53,6 +51,7 @@ h3 {
     background-color: rgba(206,205,203, 0.3);
     margin-top: 2%;
     font-weight: bold;
+    width: 100%;
 }
 .open{
    margin-top: 3%;
@@ -121,7 +120,7 @@ h3 {
        margin-left: 15%;
        margin-top: 15%;
        position: relative;
-       overflow-inline: hidden;
+       overflow-inline: auto;
    }
    .box1{
     background-color:rgb(255, 255, 255, .8);
