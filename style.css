@@ -1,3 +1,5 @@
+/* Backgrounds */
+
 .bg1 {
     background-image: url("assets/mobileBG.jpg");
     background-repeat: no-repeat, repeat;
@@ -14,17 +16,17 @@
     background-size: cover;
     
 }
+
+/* navigation */
 .navbar{
     background-color: #171717;
     color: white;
     width: 100%
     
 }
-.is-active{
-    background-color: #171717;
-}
 
 
+/* large site */
 .heading {
     color: white;
     
@@ -75,15 +77,6 @@ h3 {
     display: table;
   }
 
-.foliomargin {
-    margin-bottom:10px;
-    text-align:center;
-}
-
-.form-group .form-floating {
-    margin: 10px;
-}
-
 .icon {
     width: 8%; 
      text-align: center;
@@ -97,6 +90,20 @@ h3 {
     text-align: center;
     padding: 10px;
     background-color: black;
+    }
+
+    .video{
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
     /*mobile css  */
@@ -167,9 +174,7 @@ h3 {
 .icon{
     width: 30px;
 }
-.fb-video{
-    width: 50%;
-}
+
 /* services page animation found at https://uicookies.com/bootstrap-animation/*/
 
 .frame {
